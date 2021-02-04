@@ -8,7 +8,7 @@ import org.springframework.web.servlet.ModelAndView;
 /**
  * Basic Spring MVC controller that handles all GET requests.
  */
-@Controller
+/*@Controller
 public class GETController {
     
      @GetMapping("/")
@@ -18,8 +18,10 @@ public class GETController {
 
         return "EHEYEEHHEHEHE";
     }
-}
-/*@RequestMapping("/")
+}*/
+
+@Controller
+@RequestMapping("/")
 public class HelloWorldController {
 
     private final String siteName;
@@ -36,4 +38,4 @@ public class HelloWorldController {
     }
 
 }
-*/
+
